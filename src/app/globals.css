@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&f[]=general-sans@300,400,500,600,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-space: 'Space Grotesk', sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+  --font-general: 'General Sans', sans-serif;
+
+  --color-electric-blue: #00e5ff;
+  --color-neon-purple: #bd00ff;
+  --color-matte-black: #050508;
+  --color-dark-surface: #0f0f15;
+  --color-dark-gray: #16161f;
+  --color-cyber-blue: #00e5ff;
+  --color-cyber-purple: #9d4edd;
+}
+
+:root {
+  --background: #F5F3EF;
+  --foreground: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Satoshi', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F3EF;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #10B981;
+  border-radius: 0px;
+  border: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+/* Neo-Brutalist Shadows */
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neo-shadow-md {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.neo-shadow-xl {
+  box-shadow: 12px 12px 0px 0px #000000;
+}
+
+/* Tactile Active Offset for neo-shadow clicks */
+.neo-clickable {
+  transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+.neo-clickable:hover {
+  transform: translate(-2px, -2px);
+}
+.neo-clickable:active {
+  transform: translate(0px, 0px);
+}
+
+/* Neo-Brutalist Dot Grid Background Overlay */
+.neo-dot-grid {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-position: center center;
+}
+
+/* Neo-Brutalist Line Grid (similar to mannjadwani.com grid) */
+.neo-line-grid {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: center center;
+}
