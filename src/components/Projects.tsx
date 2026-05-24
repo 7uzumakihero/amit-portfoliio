@@ -30,7 +30,6 @@ const projects: ProjectItem[] = [
     ],
     techs: ["YOLOv11", "LaMA Inpainting", "OpenCV", "CUDA", "Python"],
     github: "https://github.com",
-    demo: "https://demo.com"
   },
   {
     title: "Web Automation System",
@@ -45,7 +44,6 @@ const projects: ProjectItem[] = [
     ],
     techs: ["Playwright", "Chromium", "Python", "Asyncio", "CSV Data Engine"],
     github: "https://github.com",
-    demo: "https://demo.com"
   },
   {
     title: "Static Landing Page",
@@ -59,7 +57,6 @@ const projects: ProjectItem[] = [
     ],
     techs: ["HTML5", "CSS3", "JavaScript", "FastAPI", "Linux VPS", "Nginx"],
     github: "https://github.com",
-    demo: "https://demo.com"
   },
   {
     title: "Python TTS Converter",
@@ -71,7 +68,6 @@ const projects: ProjectItem[] = [
     ],
     techs: ["Python", "gTTS", "Multilingual CLI", "Audio Rendering"],
     github: "https://github.com",
-    demo: "https://demo.com"
   }
 ];
 
@@ -182,17 +178,6 @@ function ProjectCard({ project, idx }: { project: ProjectItem; idx: number }) {
             >
               <GithubIcon className="w-4 h-4" />
               Source Code
-            </a>
-          )}
-          {project.demo && (
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-black bg-[#10B981] border-2 border-black px-3 py-1.5 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-0 active:translate-y-0 transition-all font-space"
-            >
-              Live Demo
-              <ExternalLink className="w-3.5 h-3.5" />
             </a>
           )}
         </div>

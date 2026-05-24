@@ -15,7 +15,7 @@ const educationList = [
     degree: "BS in Data Science & Applications",
     institution: "IIT Madras",
     period: "2024 – Present",
-    desc: "Focusing on mathematical foundations, machine learning algorithms, database structures, statistical inference, and large-scale data systems.",
+    desc: "Focusing on machine learning algorithms, database structures, statistical inference.",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function About() {
                 </div>
 
                 <p className="font-general text-sm text-black/85 leading-relaxed mb-4 font-bold">
-                  A dual-degree engineering student passionate about Artificial Intelligence, Computer Vision, Automation, and scalable software systems. Experienced in developing freelance AI tools, browser automation systems, and full-stack applications focused on performance optimization and production-ready deployment.
+                  A dual-degree engineering student passionate about Artificial Intelligence, Computer Vision, Web automation, and scalable software systems. Experienced in developing freelance AI tools, browser automation systems, and full-stack applications focused on performance optimization and production-ready deployment.
                 </p>
 
                 <p className="font-general text-sm text-black/60 leading-relaxed font-bold">
@@ -66,7 +66,7 @@ export default function About() {
             {/* Microstats banner */}
             <div className="grid grid-cols-3 gap-4">
               <div className="p-4 border-4 border-black text-center bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                <span className="font-space text-2xl font-black text-black block">2+</span>
+                <span className="font-space text-2xl font-black text-black block">2</span>
                 <span className="font-mono text-[10px] font-extrabold text-black/60 uppercase tracking-wider">Degrees Pursued</span>
               </div>
               <div className="p-4 border-4 border-black text-center bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
