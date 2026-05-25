@@ -29,7 +29,8 @@ const projects: ProjectItem[] = [
       "Optimized inference performance using CUDA acceleration and concurrent bulk-processing queues for scalable image processing."
     ],
     techs: ["YOLOv11", "LaMA Inpainting", "OpenCV", "CUDA", "Python"],
-    github: "https://github.com",
+    github: "https://github.com/Devilmax24-tech/image-watermark-removal.git",
+
   },
   {
     title: "Web Automation System",
@@ -43,7 +44,7 @@ const projects: ProjectItem[] = [
       "Reduced repetitive client workflow time from hours to minutes using CSV-driven automation systems."
     ],
     techs: ["Playwright", "Chromium", "Python", "Asyncio", "CSV Data Engine"],
-    github: "https://github.com",
+    github: "https://github.com/Devilmax24-tech/web-automation.git",
   },
   {
     title: "Static Landing Page",
@@ -56,7 +57,7 @@ const projects: ProjectItem[] = [
       "Deployed and maintained application on Linux VPS infrastructure."
     ],
     techs: ["HTML5", "CSS3", "JavaScript", "FastAPI", "Linux VPS", "Nginx"],
-    github: "https://github.com",
+    github: "https://github.com/Devilmax24-tech/landing-webpage.git",
   },
   {
     title: "Python TTS Converter",
@@ -67,7 +68,7 @@ const projects: ProjectItem[] = [
       "Built a command-line text-to-speech application with multilingual support and audio export functionality."
     ],
     techs: ["Python", "gTTS", "Multilingual CLI", "Audio Rendering"],
-    github: "https://github.com",
+    github: "https://github.com/Devilmax24-tech/python-tts-converter.git",
   }
 ];
 
